@@ -30,7 +30,7 @@ def get_args():
                         default=0.7)
     parser.add_argument("--min_tracking_confidence",
                         help='min_tracking_confidence',
-                        type=int,
+                        type=float,
                         default=0.5)
 
     args = parser.parse_args()
