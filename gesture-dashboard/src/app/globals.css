@@ -1,0 +1,55 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+/* ---- Tailwind v4 theme tokens ---------------------------------------- */
+/* Any token you define here becomes a first-class utility like bg-bg, text-mute, shadow-soft, etc. */
+@theme {
+  /* Colors */
+  --color-bg: #0b0e12;
+  --color-panel: #11151b;
+  --color-border: #1d232d;
+  --color-text: #e6e9ee;
+  --color-mute: #a0a6b2;
+
+  --color-brand: #6ee7ff;
+  --color-brand-600: #54c6e2;
+  --color-brand-700: #3fa6c1;
+
+  --color-good: #58d38c;
+  --color-warn: #ffc857;
+  --color-bad: #ff6b6b;
+
+  /* Radii (maps to rounded-* utilities) */
+  --radius-xl: 14px;
+  --radius-2xl: 20px;
+
+  /* Shadows (maps to shadow-* utilities) */
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 24px rgba(0, 0, 0, 0.24);
+}
+
+/* ---- Global defaults --------------------------------------------------- */
+:root {
+  color-scheme: dark;
+}
+html,
+body {
+  @apply bg-bg text-text antialiased;
+}
+
+/* ---- Reusable component classes (v4 still supports @apply) ------------ */
+.button {
+  @apply inline-flex items-center gap-2 rounded-xl bg-brand/10 hover:bg-brand/20
+         text-brand px-3 py-2 border border-brand/20 transition;
+}
+.card {
+  @apply bg-panel/90 backdrop-blur border border-border rounded-2xl shadow-soft;
+}
+.h1 {
+  @apply text-2xl font-semibold tracking-tight;
+}
+.h2 {
+  @apply text-lg font-medium text-mute;
+}
+.kbd {
+  @apply px-2 py-1 rounded-md bg-border text-mute text-xs border border-border;
+}

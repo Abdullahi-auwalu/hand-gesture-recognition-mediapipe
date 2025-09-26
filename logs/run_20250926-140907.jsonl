@@ -1,0 +1,362 @@
+{"type": "meta", "session_id": "a3402f03-e844-479e-a708-282f7da41984", "labels": ["Open", "Close", "Pointer", "OK", "Peace sign", "Thums up"], "pointer_label": "Pointer", "pointer_id": 2, "virtual_mouse_enabled_at_start": false, "args": {"device": 0, "width": 960, "height": 540, "use_static_image_mode": false, "min_detection_confidence": 0.7, "min_tracking_confidence": 0.5, "virtual_mouse": false, "logs_dir": "logs", "config": "config/gesture_bindings.json"}}
+{"type": "frame", "ts": 1758892148.3543057, "frame_idx": 1, "latency_ms": 1213.031530380249, "fps": 96.18, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892148.5555522, "frame_idx": 2, "latency_ms": 200.68097114562988, "fps": 1.63, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892148.7353415, "frame_idx": 3, "latency_ms": 179.78930473327637, "fps": 2.1, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892148.8781116, "frame_idx": 4, "latency_ms": 142.77005195617676, "fps": 2.49, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892148.982965, "frame_idx": 5, "latency_ms": 104.18963432312012, "fps": 2.86, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.1599803, "frame_idx": 6, "latency_ms": 177.0153045654297, "fps": 3.24, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.2975454, "frame_idx": 7, "latency_ms": 137.56513595581055, "fps": 3.45, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.388003, "frame_idx": 8, "latency_ms": 90.45767784118652, "fps": 3.69, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.5151193, "frame_idx": 9, "latency_ms": 126.97815895080566, "fps": 3.99, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.6302774, "frame_idx": 10, "latency_ms": 115.1580810546875, "fps": 4.19, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.756108, "frame_idx": 11, "latency_ms": 125.83065032958984, "fps": 4.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.8630278, "frame_idx": 12, "latency_ms": 106.91976547241211, "fps": 7.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892149.9635415, "frame_idx": 13, "latency_ms": 100.51369667053223, "fps": 7.65, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.0526867, "frame_idx": 14, "latency_ms": 88.6378288269043, "fps": 8.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.1612313, "frame_idx": 15, "latency_ms": 108.42323303222656, "fps": 8.52, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.2533839, "frame_idx": 16, "latency_ms": 91.53151512145996, "fps": 8.48, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.354165, "frame_idx": 17, "latency_ms": 100.78120231628418, "fps": 9.15, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.45633, "frame_idx": 18, "latency_ms": 101.65786743164062, "fps": 9.46, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.5554714, "frame_idx": 19, "latency_ms": 99.14135932922363, "fps": 9.35, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.6455173, "frame_idx": 20, "latency_ms": 90.04592895507812, "fps": 9.61, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892150.9948163, "frame_idx": 21, "latency_ms": 349.29895401000977, "fps": 9.85, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.1641223, "frame_idx": 22, "latency_ms": 168.6723232269287, "fps": 8.07, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.2741356, "frame_idx": 23, "latency_ms": 109.72738265991211, "fps": 7.68, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.3779721, "frame_idx": 24, "latency_ms": 103.8365364074707, "fps": 7.63, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.4776888, "frame_idx": 25, "latency_ms": 99.7166633605957, "fps": 7.54, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.6772404, "frame_idx": 26, "latency_ms": 198.9438533782959, "fps": 7.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892151.988463, "frame_idx": 27, "latency_ms": 311.2225532531738, "fps": 7.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.1192389, "frame_idx": 28, "latency_ms": 130.77592849731445, "fps": 6.11, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.2157393, "frame_idx": 29, "latency_ms": 96.50039672851562, "fps": 6.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.3075323, "frame_idx": 30, "latency_ms": 91.79306030273438, "fps": 6.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.4508958, "frame_idx": 31, "latency_ms": 143.25332641601562, "fps": 6.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.5642896, "frame_idx": 32, "latency_ms": 112.87832260131836, "fps": 6.87, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.6609735, "frame_idx": 33, "latency_ms": 96.1618423461914, "fps": 7.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.7518475, "frame_idx": 34, "latency_ms": 90.75808525085449, "fps": 7.21, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.863821, "frame_idx": 35, "latency_ms": 111.97352409362793, "fps": 7.28, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892152.9502144, "frame_idx": 36, "latency_ms": 86.39335632324219, "fps": 7.22, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.0445228, "frame_idx": 37, "latency_ms": 94.1777229309082, "fps": 7.86, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.1599143, "frame_idx": 38, "latency_ms": 115.39149284362793, "fps": 9.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.2581196, "frame_idx": 39, "latency_ms": 98.2053279876709, "fps": 9.61, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.3422544, "frame_idx": 40, "latency_ms": 84.13481712341309, "fps": 9.59, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.4272535, "frame_idx": 41, "latency_ms": 84.99908447265625, "fps": 9.66, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.5123765, "frame_idx": 42, "latency_ms": 85.12306213378906, "fps": 10.25, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.591137, "frame_idx": 43, "latency_ms": 78.24969291687012, "fps": 10.54, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.6784005, "frame_idx": 44, "latency_ms": 87.26358413696289, "fps": 10.75, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.7617302, "frame_idx": 45, "latency_ms": 82.73959159851074, "fps": 10.79, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.8240483, "frame_idx": 46, "latency_ms": 62.31808662414551, "fps": 11.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.8959858, "frame_idx": 47, "latency_ms": 71.39182090759277, "fps": 11.44, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892153.9811397, "frame_idx": 48, "latency_ms": 85.15381813049316, "fps": 11.74, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.0798273, "frame_idx": 49, "latency_ms": 98.68764877319336, "fps": 12.17, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.206032, "frame_idx": 50, "latency_ms": 126.2047290802002, "fps": 12.17, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.2810144, "frame_idx": 51, "latency_ms": 74.46956634521484, "fps": 11.57, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.3565607, "frame_idx": 52, "latency_ms": 75.5462646484375, "fps": 11.71, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.4690025, "frame_idx": 53, "latency_ms": 111.93323135375977, "fps": 11.85, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892154.759766, "frame_idx": 54, "latency_ms": 290.76361656188965, "fps": 11.39, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.283296, "frame_idx": 55, "latency_ms": 523.5300064086914, "fps": 9.25, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.3751395, "frame_idx": 56, "latency_ms": 91.8433666229248, "fps": 6.57, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.4491427, "frame_idx": 57, "latency_ms": 74.00321960449219, "fps": 6.45, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.5090256, "frame_idx": 58, "latency_ms": 59.075355529785156, "fps": 6.44, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.5669212, "frame_idx": 59, "latency_ms": 57.895660400390625, "fps": 6.55, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.6471949, "frame_idx": 60, "latency_ms": 80.27362823486328, "fps": 6.72, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.714407, "frame_idx": 61, "latency_ms": 67.21210479736328, "fps": 6.94, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.7711868, "frame_idx": 62, "latency_ms": 56.77986145019531, "fps": 6.98, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.8581998, "frame_idx": 63, "latency_ms": 87.01300621032715, "fps": 7.07, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.9245427, "frame_idx": 64, "latency_ms": 65.83118438720703, "fps": 7.2, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892155.9934094, "frame_idx": 65, "latency_ms": 68.86672973632812, "fps": 8.58, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.0711849, "frame_idx": 66, "latency_ms": 77.26430892944336, "fps": 14.08, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.1305492, "frame_idx": 67, "latency_ms": 59.36431884765625, "fps": 14.37, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.265344, "frame_idx": 68, "latency_ms": 85.26372909545898, "fps": 13.69, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.3397045, "frame_idx": 69, "latency_ms": 74.08022880554199, "fps": 13.22, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.397417, "frame_idx": 70, "latency_ms": 57.712554931640625, "fps": 12.95, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.4661562, "frame_idx": 71, "latency_ms": 68.73917579650879, "fps": 13.33, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.5415998, "frame_idx": 72, "latency_ms": 75.44350624084473, "fps": 13.3, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.6246016, "frame_idx": 73, "latency_ms": 83.00185203552246, "fps": 12.91, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.6938546, "frame_idx": 74, "latency_ms": 69.25296783447266, "fps": 13.05, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.7669177, "frame_idx": 75, "latency_ms": 72.43132591247559, "fps": 13.01, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.8358872, "frame_idx": 76, "latency_ms": 68.85051727294922, "fps": 12.93, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.92322, "frame_idx": 77, "latency_ms": 86.8220329284668, "fps": 13.07, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892156.9899538, "frame_idx": 78, "latency_ms": 66.73383712768555, "fps": 13.46, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.0830677, "frame_idx": 79, "latency_ms": 93.11389923095703, "fps": 13.8, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.1811166, "frame_idx": 80, "latency_ms": 98.04892539978027, "fps": 13.45, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.2507303, "frame_idx": 81, "latency_ms": 69.61369514465332, "fps": 12.76, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.3218133, "frame_idx": 82, "latency_ms": 71.08306884765625, "fps": 12.73, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.4386294, "frame_idx": 83, "latency_ms": 116.81604385375977, "fps": 12.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.503135, "frame_idx": 84, "latency_ms": 64.50557708740234, "fps": 12.29, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.6126842, "frame_idx": 85, "latency_ms": 68.32551956176758, "fps": 11.76, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.70624, "frame_idx": 86, "latency_ms": 93.55568885803223, "fps": 11.82, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.7715473, "frame_idx": 87, "latency_ms": 65.3073787689209, "fps": 11.49, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.8306391, "frame_idx": 88, "latency_ms": 59.091806411743164, "fps": 11.79, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.8938553, "frame_idx": 89, "latency_ms": 62.59346008300781, "fps": 11.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892157.9617438, "frame_idx": 90, "latency_ms": 67.88849830627441, "fps": 12.34, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.036812, "frame_idx": 91, "latency_ms": 74.5549201965332, "fps": 12.81, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.1557245, "frame_idx": 92, "latency_ms": 118.9124584197998, "fps": 12.74, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.2380953, "frame_idx": 93, "latency_ms": 82.37075805664062, "fps": 11.99, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.3654478, "frame_idx": 94, "latency_ms": 127.35247611999512, "fps": 12.51, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.4285226, "frame_idx": 95, "latency_ms": 63.07482719421387, "fps": 12.19, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.4945674, "frame_idx": 96, "latency_ms": 66.04480743408203, "fps": 12.26, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.5567958, "frame_idx": 97, "latency_ms": 62.22844123840332, "fps": 12.68, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.6236393, "frame_idx": 98, "latency_ms": 66.84350967407227, "fps": 12.73, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.6856568, "frame_idx": 99, "latency_ms": 62.01744079589844, "fps": 12.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892158.7548623, "frame_idx": 100, "latency_ms": 69.20552253723145, "fps": 12.62, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892161.1095002, "frame_idx": 101, "latency_ms": 2354.637861251831, "fps": 12.61, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.5226491093635559, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [418, 138, 627, 455], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.210994, "frame_idx": 102, "latency_ms": 100.97932815551758, "fps": 3.25, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.8932561874389648, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [472, 143, 754, 489], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.3198588, "frame_idx": 103, "latency_ms": 108.86478424072266, "fps": 3.27, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9159336686134338, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [482, 134, 805, 510], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.4171607, "frame_idx": 104, "latency_ms": 97.30195999145508, "fps": 3.25, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.91029292345047, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [477, 135, 806, 513], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.5047686, "frame_idx": 105, "latency_ms": 87.17823028564453, "fps": 3.28, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9074781537055969, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [476, 134, 803, 515], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.6118162, "frame_idx": 106, "latency_ms": 107.04755783081055, "fps": 3.25, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9041996002197266, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [472, 136, 799, 516], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.8703785, "frame_idx": 107, "latency_ms": 143.33581924438477, "fps": 3.09, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9013160467147827, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [479, 136, 800, 516], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892161.9705832, "frame_idx": 108, "latency_ms": 100.2047061920166, "fps": 3.02, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9251933693885803, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [478, 140, 820, 514], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.0658257, "frame_idx": 109, "latency_ms": 95.24250030517578, "fps": 2.99, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9318304657936096, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [477, 143, 823, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.1852794, "frame_idx": 110, "latency_ms": 119.2779541015625, "fps": 2.96, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9335917830467224, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [477, 145, 824, 514], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.3067455, "frame_idx": 111, "latency_ms": 121.36006355285645, "fps": 2.92, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9367247223854065, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [479, 145, 828, 514], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.411824, "frame_idx": 112, "latency_ms": 105.07845878601074, "fps": 8.36, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9395525455474854, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [484, 143, 831, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.5124896, "frame_idx": 113, "latency_ms": 100.66556930541992, "fps": 8.34, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9332510232925415, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [483, 141, 832, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.6096745, "frame_idx": 114, "latency_ms": 96.89188003540039, "fps": 8.38, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9339304566383362, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [482, 141, 830, 516], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.7229054, "frame_idx": 115, "latency_ms": 113.23094367980957, "fps": 8.39, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9340760111808777, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [485, 141, 830, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.8193247, "frame_idx": 116, "latency_ms": 95.80159187316895, "fps": 8.21, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9342041611671448, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [486, 141, 828, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892162.984696, "frame_idx": 117, "latency_ms": 165.25983810424805, "fps": 9.15, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9318899512290955, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [487, 141, 826, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.317584, "frame_idx": 118, "latency_ms": 170.00842094421387, "fps": 7.83, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9242250919342041, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [495, 139, 822, 513], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.4165301, "frame_idx": 119, "latency_ms": 98.94609451293945, "fps": 7.42, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9211637377738953, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [498, 139, 819, 514], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.5194957, "frame_idx": 120, "latency_ms": 102.9655933380127, "fps": 7.4, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9214130640029907, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [498, 139, 820, 514], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.6520395, "frame_idx": 121, "latency_ms": 132.54380226135254, "fps": 7.49, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9241163730621338, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [499, 139, 820, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.7519073, "frame_idx": 122, "latency_ms": 99.8678207397461, "fps": 7.43, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9186226725578308, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [499, 139, 820, 513], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.8610742, "frame_idx": 123, "latency_ms": 109.16686058044434, "fps": 7.46, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9259319305419922, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [500, 140, 821, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892163.9439075, "frame_idx": 124, "latency_ms": 82.83329010009766, "fps": 7.42, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9234104752540588, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [500, 139, 821, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.1037905, "frame_idx": 125, "latency_ms": 159.8830223083496, "fps": 7.5, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9260997772216797, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [503, 139, 825, 510], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.231093, "frame_idx": 126, "latency_ms": 127.30240821838379, "fps": 7.24, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9253350496292114, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [507, 139, 828, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.3484526, "frame_idx": 127, "latency_ms": 117.35963821411133, "fps": 7.08, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9275792837142944, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [508, 140, 829, 510], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.527721, "frame_idx": 128, "latency_ms": 112.26415634155273, "fps": 7.89, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9292895197868347, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [512, 140, 830, 508], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.6373947, "frame_idx": 129, "latency_ms": 109.67373847961426, "fps": 8.26, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9228153824806213, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [515, 139, 830, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.7591977, "frame_idx": 130, "latency_ms": 121.68145179748535, "fps": 8.19, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9284194707870483, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [517, 140, 830, 509], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.891408, "frame_idx": 131, "latency_ms": 132.21025466918945, "fps": 8.07, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9290942549705505, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [516, 140, 827, 508], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892164.996046, "frame_idx": 132, "latency_ms": 104.63809967041016, "fps": 8.07, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9255796670913696, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [516, 139, 827, 509], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.1004953, "frame_idx": 133, "latency_ms": 103.93905639648438, "fps": 8.02, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9290591478347778, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [516, 139, 826, 506], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.23907, "frame_idx": 134, "latency_ms": 138.46707344055176, "fps": 8.07, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9234486818313599, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [516, 138, 828, 510], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.375483, "frame_idx": 135, "latency_ms": 136.4130973815918, "fps": 7.72, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9224854707717896, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [515, 139, 829, 512], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.499821, "frame_idx": 136, "latency_ms": 124.17292594909668, "fps": 7.86, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9290214776992798, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [515, 139, 831, 509], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.5959778, "frame_idx": 137, "latency_ms": 96.15683555603027, "fps": 7.88, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9268803000450134, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [515, 138, 830, 509], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.7087247, "frame_idx": 138, "latency_ms": 112.7469539642334, "fps": 8.47, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9243462681770325, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [515, 138, 831, 511], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.8077765, "frame_idx": 139, "latency_ms": 99.05171394348145, "fps": 8.47, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9229455590248108, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [516, 135, 832, 507], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892165.901675, "frame_idx": 140, "latency_ms": 93.34874153137207, "fps": 8.54, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9227867722511292, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [520, 135, 834, 507], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.0541134, "frame_idx": 141, "latency_ms": 152.43840217590332, "fps": 8.75, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.9220903515815735, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [520, 131, 832, 501], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.1828032, "frame_idx": 142, "latency_ms": 128.03292274475098, "fps": 8.6, "vmouse_enabled": false, "hand": {"label": "Open", "id": 0, "conf": 0.7420637607574463, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [535, 157, 790, 482], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.2930572, "frame_idx": 143, "latency_ms": 110.25404930114746, "fps": 8.44, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.7570324540138245, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [572, 178, 769, 435], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.385206, "frame_idx": 144, "latency_ms": 92.1487808227539, "fps": 8.38, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.9275642037391663, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [586, 177, 741, 413], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.5415428, "frame_idx": 145, "latency_ms": 155.82799911499023, "fps": 8.72, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.9033663272857666, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [586, 180, 735, 405], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.6679208, "frame_idx": 146, "latency_ms": 126.24311447143555, "fps": 8.58, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.848738431930542, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [572, 188, 730, 402], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.7902622, "frame_idx": 147, "latency_ms": 121.82974815368652, "fps": 8.56, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8631356954574585, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [575, 193, 735, 399], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892166.9016879, "frame_idx": 148, "latency_ms": 111.42563819885254, "fps": 8.38, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8527323007583618, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [579, 195, 739, 402], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.0344226, "frame_idx": 149, "latency_ms": 132.7347755432129, "fps": 8.38, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8339882493019104, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [597, 206, 762, 416], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.2630312, "frame_idx": 150, "latency_ms": 124.85241889953613, "fps": 7.52, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8364533185958862, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [607, 214, 772, 426], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.395975, "frame_idx": 151, "latency_ms": 132.94386863708496, "fps": 7.35, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8434721231460571, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [617, 214, 781, 425], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.5001245, "frame_idx": 152, "latency_ms": 104.14934158325195, "fps": 7.45, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8498916029930115, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [618, 217, 783, 426], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.6020715, "frame_idx": 153, "latency_ms": 101.94706916809082, "fps": 7.59, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8362986445426941, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [620, 214, 786, 426], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.7046523, "frame_idx": 154, "latency_ms": 102.58078575134277, "fps": 7.64, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.828174889087677, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [620, 215, 787, 426], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.8040009, "frame_idx": 155, "latency_ms": 99.34854507446289, "fps": 7.58, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8400149941444397, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [623, 218, 790, 429], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892167.9201362, "frame_idx": 156, "latency_ms": 116.1353588104248, "fps": 7.92, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.816135585308075, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [625, 217, 790, 427], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.0184343, "frame_idx": 157, "latency_ms": 98.2980728149414, "fps": 7.99, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8061988353729248, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [627, 216, 794, 428], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.1512158, "frame_idx": 158, "latency_ms": 132.65275955200195, "fps": 8.14, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8229614496231079, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [628, 210, 789, 429], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.2460551, "frame_idx": 159, "latency_ms": 94.32554244995117, "fps": 8.0, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.6367131471633911, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [626, 188, 782, 418], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.3394756, "frame_idx": 160, "latency_ms": 93.42050552368164, "fps": 9.03, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.5405097007751465, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [620, 157, 777, 430], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.4684334, "frame_idx": 161, "latency_ms": 128.95774841308594, "fps": 9.29, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.5993484258651733, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [615, 74, 769, 421], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.622744, "frame_idx": 162, "latency_ms": 128.87287139892578, "fps": 9.11, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6025438904762268, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [607, 71, 762, 427], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.7346468, "frame_idx": 163, "latency_ms": 111.90271377563477, "fps": 8.9, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6208122968673706, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [602, 66, 760, 430], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.8514204, "frame_idx": 164, "latency_ms": 116.77360534667969, "fps": 8.82, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6414805054664612, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [601, 61, 765, 431], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892168.961815, "frame_idx": 165, "latency_ms": 110.39471626281738, "fps": 8.72, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6430322527885437, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [604, 55, 769, 433], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.05686, "frame_idx": 166, "latency_ms": 95.04485130310059, "fps": 8.64, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6519471406936646, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [606, 54, 772, 434], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.1556873, "frame_idx": 167, "latency_ms": 98.82736206054688, "fps": 8.8, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6491175889968872, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [618, 51, 789, 434], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.2502582, "frame_idx": 168, "latency_ms": 94.57087516784668, "fps": 8.79, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6629903316497803, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [620, 54, 784, 434], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.369176, "frame_idx": 169, "latency_ms": 118.91770362854004, "fps": 9.1, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6478773355484009, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [634, 51, 799, 433], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.5067697, "frame_idx": 170, "latency_ms": 137.26806640625, "fps": 8.9, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6436723470687866, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [639, 53, 798, 435], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.614582, "frame_idx": 171, "latency_ms": 107.81240463256836, "fps": 8.55, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6442697644233704, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [641, 51, 799, 436], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.7328184, "frame_idx": 172, "latency_ms": 117.94781684875488, "fps": 8.92, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.639093279838562, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [644, 53, 802, 438], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.851417, "frame_idx": 173, "latency_ms": 99.82776641845703, "fps": 8.87, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6386538743972778, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [643, 55, 800, 437], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892169.9452305, "frame_idx": 174, "latency_ms": 93.71566772460938, "fps": 8.96, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6481817960739136, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [643, 54, 800, 437], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.0449483, "frame_idx": 175, "latency_ms": 99.20859336853027, "fps": 9.14, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6453582644462585, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [642, 54, 800, 439], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.1654656, "frame_idx": 176, "latency_ms": 120.51725387573242, "fps": 9.23, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6604218482971191, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [642, 54, 799, 439], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.2616165, "frame_idx": 177, "latency_ms": 96.15087509155273, "fps": 9.02, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6468034982681274, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [642, 55, 799, 441], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.387511, "frame_idx": 178, "latency_ms": 125.89454650878906, "fps": 9.04, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.638261079788208, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [641, 55, 799, 440], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.5045714, "frame_idx": 179, "latency_ms": 117.06042289733887, "fps": 8.79, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6540858745574951, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [640, 55, 799, 438], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.599886, "frame_idx": 180, "latency_ms": 95.31450271606445, "fps": 8.81, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6460182666778564, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [640, 55, 801, 441], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.716451, "frame_idx": 181, "latency_ms": 116.56498908996582, "fps": 9.17, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.64591383934021, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [641, 55, 798, 440], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.8304083, "frame_idx": 182, "latency_ms": 113.6479377746582, "fps": 9.08, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.650865912437439, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [641, 55, 799, 441], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892170.92924, "frame_idx": 183, "latency_ms": 98.8316535949707, "fps": 9.27, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6592955589294434, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [638, 55, 799, 440], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892171.086122, "frame_idx": 184, "latency_ms": 156.88204765319824, "fps": 9.28, "vmouse_enabled": false, "hand": {"label": "Peace sign", "id": 4, "conf": 0.6364343166351318, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [637, 57, 800, 444], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892171.3117447, "frame_idx": 185, "latency_ms": 149.67942237854004, "fps": 8.22, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.5885387659072876, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [597, 129, 805, 455], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892171.424558, "frame_idx": 186, "latency_ms": 112.81323432922363, "fps": 7.9, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.8934954404830933, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [583, 190, 799, 449], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892171.5589738, "frame_idx": 187, "latency_ms": 134.415864944458, "fps": 7.94, "vmouse_enabled": false, "hand": {"label": "Close", "id": 1, "conf": 0.9418850541114807, "pinch_ratio": null, "clicked": false, "scrolled": false, "bbox": [546, 243, 720, 488], "handedness": "Right"}}
+{"type": "frame", "ts": 1758892171.6314015, "frame_idx": 188, "latency_ms": 72.42774963378906, "fps": 7.71, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892171.6940508, "frame_idx": 189, "latency_ms": 62.64925003051758, "fps": 8.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892171.8270633, "frame_idx": 190, "latency_ms": 133.0125331878662, "fps": 8.41, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892171.9129977, "frame_idx": 191, "latency_ms": 85.80255508422852, "fps": 8.15, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.0296526, "frame_idx": 192, "latency_ms": 116.65487289428711, "fps": 8.36, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.0962274, "frame_idx": 193, "latency_ms": 66.5748119354248, "fps": 8.34, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.162074, "frame_idx": 194, "latency_ms": 65.84668159484863, "fps": 8.57, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.2289002, "frame_idx": 195, "latency_ms": 66.82610511779785, "fps": 10.0, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.2934132, "frame_idx": 196, "latency_ms": 64.00203704833984, "fps": 10.9, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.3792884, "frame_idx": 197, "latency_ms": 85.26253700256348, "fps": 11.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.4556074, "frame_idx": 198, "latency_ms": 75.80804824829102, "fps": 12.19, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.6923938, "frame_idx": 199, "latency_ms": 153.4738540649414, "fps": 11.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.7583616, "frame_idx": 200, "latency_ms": 65.96779823303223, "fps": 10.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.8606784, "frame_idx": 201, "latency_ms": 102.31685638427734, "fps": 10.74, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892172.947687, "frame_idx": 202, "latency_ms": 87.00847625732422, "fps": 10.55, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.0543177, "frame_idx": 203, "latency_ms": 106.63080215454102, "fps": 10.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.1574743, "frame_idx": 204, "latency_ms": 103.15656661987305, "fps": 10.43, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.2521124, "frame_idx": 205, "latency_ms": 94.09666061401367, "fps": 10.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.3708682, "frame_idx": 206, "latency_ms": 107.49053955078125, "fps": 9.67, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.449222, "frame_idx": 207, "latency_ms": 77.8346061706543, "fps": 9.28, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.5603333, "frame_idx": 208, "latency_ms": 111.11116409301758, "fps": 9.35, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.6523147, "frame_idx": 209, "latency_ms": 91.98141098022461, "fps": 9.79, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892173.803137, "frame_idx": 210, "latency_ms": 150.31123161315918, "fps": 10.42, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.030386, "frame_idx": 211, "latency_ms": 138.5040283203125, "fps": 8.82, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.2179525, "frame_idx": 212, "latency_ms": 187.56651878356934, "fps": 8.55, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.3504572, "frame_idx": 213, "latency_ms": 132.50470161437988, "fps": 7.88, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.4656796, "frame_idx": 214, "latency_ms": 115.22245407104492, "fps": 7.72, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.6234672, "frame_idx": 215, "latency_ms": 157.78756141662598, "fps": 7.65, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.728715, "frame_idx": 216, "latency_ms": 105.24773597717285, "fps": 7.35, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.870262, "frame_idx": 217, "latency_ms": 140.37251472473145, "fps": 7.36, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892174.9664638, "frame_idx": 218, "latency_ms": 96.20189666748047, "fps": 7.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892175.0410125, "frame_idx": 219, "latency_ms": 74.22828674316406, "fps": 7.11, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892175.1423764, "frame_idx": 220, "latency_ms": 101.3638973236084, "fps": 7.2, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892175.269067, "frame_idx": 221, "latency_ms": 126.69062614440918, "fps": 7.99, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892175.355219, "frame_idx": 222, "latency_ms": 86.1518383026123, "fps": 8.03, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892175.7924438, "frame_idx": 223, "latency_ms": 437.2248649597168, "fps": 8.76, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.0017774, "frame_idx": 224, "latency_ms": 208.82248878479004, "fps": 6.93, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.1378012, "frame_idx": 225, "latency_ms": 135.7707977294922, "fps": 6.51, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.348553, "frame_idx": 226, "latency_ms": 210.61325073242188, "fps": 6.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.4429104, "frame_idx": 227, "latency_ms": 94.35749053955078, "fps": 6.18, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.5336146, "frame_idx": 228, "latency_ms": 90.70420265197754, "fps": 6.36, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.7402928, "frame_idx": 229, "latency_ms": 140.96760749816895, "fps": 6.12, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.8566573, "frame_idx": 230, "latency_ms": 116.3644790649414, "fps": 5.87, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892176.9376566, "frame_idx": 231, "latency_ms": 80.99937438964844, "fps": 5.83, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.0486717, "frame_idx": 232, "latency_ms": 111.01508140563965, "fps": 6.02, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.1565793, "frame_idx": 233, "latency_ms": 106.98938369750977, "fps": 5.92, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.2441764, "frame_idx": 234, "latency_ms": 87.59713172912598, "fps": 7.33, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.3103402, "frame_idx": 235, "latency_ms": 66.16377830505371, "fps": 8.05, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.4485157, "frame_idx": 236, "latency_ms": 138.17548751831055, "fps": 8.53, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.5919275, "frame_idx": 237, "latency_ms": 143.41187477111816, "fps": 9.09, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.7206569, "frame_idx": 238, "latency_ms": 128.72934341430664, "fps": 8.7, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892177.937153, "frame_idx": 239, "latency_ms": 216.49622917175293, "fps": 8.92, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892178.3571665, "frame_idx": 240, "latency_ms": 419.4984436035156, "fps": 8.38, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892178.574958, "frame_idx": 241, "latency_ms": 217.79155731201172, "fps": 6.66, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892178.767519, "frame_idx": 242, "latency_ms": 192.56091117858887, "fps": 6.11, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892178.845004, "frame_idx": 243, "latency_ms": 77.4850845336914, "fps": 5.82, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892178.9722412, "frame_idx": 244, "latency_ms": 127.23708152770996, "fps": 5.92, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.124283, "frame_idx": 245, "latency_ms": 151.53002738952637, "fps": 5.79, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.2740457, "frame_idx": 246, "latency_ms": 149.2471694946289, "fps": 5.51, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.3719385, "frame_idx": 247, "latency_ms": 97.89276123046875, "fps": 5.48, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.5194666, "frame_idx": 248, "latency_ms": 147.42231369018555, "fps": 5.62, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.6356814, "frame_idx": 249, "latency_ms": 116.21475219726562, "fps": 5.56, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892179.9239929, "frame_idx": 250, "latency_ms": 288.3114814758301, "fps": 5.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.0675876, "frame_idx": 251, "latency_ms": 143.59474182128906, "fps": 6.39, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.1560228, "frame_idx": 252, "latency_ms": 88.43517303466797, "fps": 6.7, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.239374, "frame_idx": 253, "latency_ms": 83.21547508239746, "fps": 7.2, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.3661654, "frame_idx": 254, "latency_ms": 126.79147720336914, "fps": 7.17, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.5024476, "frame_idx": 255, "latency_ms": 136.28220558166504, "fps": 7.18, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.6537807, "frame_idx": 256, "latency_ms": 151.20458602905273, "fps": 7.26, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892180.792127, "frame_idx": 257, "latency_ms": 138.34619522094727, "fps": 7.25, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892181.057967, "frame_idx": 258, "latency_ms": 265.8400535583496, "fps": 7.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892181.2212074, "frame_idx": 259, "latency_ms": 163.2404327392578, "fps": 6.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892181.669321, "frame_idx": 260, "latency_ms": 447.6048946380615, "fps": 6.31, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892181.8004904, "frame_idx": 261, "latency_ms": 131.16931915283203, "fps": 5.73, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892181.943411, "frame_idx": 262, "latency_ms": 142.81082153320312, "fps": 5.77, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.0597816, "frame_idx": 263, "latency_ms": 116.37043952941895, "fps": 5.59, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.1848085, "frame_idx": 264, "latency_ms": 125.02694129943848, "fps": 5.49, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.25669, "frame_idx": 265, "latency_ms": 71.88153266906738, "fps": 5.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.3673937, "frame_idx": 266, "latency_ms": 110.70370674133301, "fps": 5.7, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.488501, "frame_idx": 267, "latency_ms": 121.00362777709961, "fps": 5.84, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.597226, "frame_idx": 268, "latency_ms": 108.72483253479004, "fps": 5.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.7294328, "frame_idx": 269, "latency_ms": 132.20691680908203, "fps": 6.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.8450296, "frame_idx": 270, "latency_ms": 115.59677124023438, "fps": 6.63, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892182.9552991, "frame_idx": 271, "latency_ms": 110.26954650878906, "fps": 8.5, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.0611138, "frame_idx": 272, "latency_ms": 105.81469535827637, "fps": 8.66, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.1534312, "frame_idx": 273, "latency_ms": 92.1163558959961, "fps": 8.95, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.2525535, "frame_idx": 274, "latency_ms": 99.12228584289551, "fps": 9.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.34671, "frame_idx": 275, "latency_ms": 94.15650367736816, "fps": 9.37, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.467233, "frame_idx": 276, "latency_ms": 120.52297592163086, "fps": 9.17, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.5702274, "frame_idx": 277, "latency_ms": 102.48327255249023, "fps": 9.09, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.6908176, "frame_idx": 278, "latency_ms": 120.5902099609375, "fps": 9.25, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.8341076, "frame_idx": 279, "latency_ms": 143.29004287719727, "fps": 9.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892183.9995742, "frame_idx": 280, "latency_ms": 165.4665470123291, "fps": 9.05, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.0939095, "frame_idx": 281, "latency_ms": 94.33531761169434, "fps": 8.66, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.1845596, "frame_idx": 282, "latency_ms": 90.65008163452148, "fps": 8.78, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.35592, "frame_idx": 283, "latency_ms": 171.36049270629883, "fps": 8.9, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.4680412, "frame_idx": 284, "latency_ms": 112.1211051940918, "fps": 8.32, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.591301, "frame_idx": 285, "latency_ms": 123.2597827911377, "fps": 8.23, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.6993582, "frame_idx": 286, "latency_ms": 108.05726051330566, "fps": 8.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.8085473, "frame_idx": 287, "latency_ms": 109.18903350830078, "fps": 8.11, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892184.9121938, "frame_idx": 288, "latency_ms": 103.64651679992676, "fps": 8.07, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.0341616, "frame_idx": 289, "latency_ms": 121.96779251098633, "fps": 8.19, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.1324224, "frame_idx": 290, "latency_ms": 98.26087951660156, "fps": 8.33, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.3123484, "frame_idx": 291, "latency_ms": 179.92591857910156, "fps": 8.83, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.4197116, "frame_idx": 292, "latency_ms": 107.36322402954102, "fps": 8.21, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.592018, "frame_idx": 293, "latency_ms": 172.30629920959473, "fps": 8.1, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.7345803, "frame_idx": 294, "latency_ms": 142.5623893737793, "fps": 8.07, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.822937, "frame_idx": 295, "latency_ms": 87.84675598144531, "fps": 7.89, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892185.9606552, "frame_idx": 296, "latency_ms": 137.71820068359375, "fps": 8.12, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.0912778, "frame_idx": 297, "latency_ms": 130.1107406616211, "fps": 7.93, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.199349, "frame_idx": 298, "latency_ms": 108.07108879089355, "fps": 7.8, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.3038812, "frame_idx": 299, "latency_ms": 104.02059555053711, "fps": 7.77, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.4634364, "frame_idx": 300, "latency_ms": 159.55519676208496, "fps": 7.88, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.584081, "frame_idx": 301, "latency_ms": 120.52202224731445, "fps": 7.51, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.716878, "frame_idx": 302, "latency_ms": 132.7970027923584, "fps": 7.87, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.8029208, "frame_idx": 303, "latency_ms": 86.04288101196289, "fps": 7.7, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.8975396, "frame_idx": 304, "latency_ms": 94.6187973022461, "fps": 8.28, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892186.9941373, "frame_idx": 305, "latency_ms": 96.59767150878906, "fps": 8.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.077704, "frame_idx": 306, "latency_ms": 83.40001106262207, "fps": 8.54, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.1730497, "frame_idx": 307, "latency_ms": 95.34573554992676, "fps": 8.95, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.2654893, "frame_idx": 308, "latency_ms": 91.92323684692383, "fps": 9.24, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.3687158, "frame_idx": 309, "latency_ms": 102.71239280700684, "fps": 9.38, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.5213723, "frame_idx": 310, "latency_ms": 152.50897407531738, "fps": 9.39, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.6216657, "frame_idx": 311, "latency_ms": 100.14796257019043, "fps": 9.45, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.723712, "frame_idx": 312, "latency_ms": 101.53460502624512, "fps": 9.64, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.798719, "frame_idx": 313, "latency_ms": 75.00696182250977, "fps": 9.94, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892187.9720638, "frame_idx": 314, "latency_ms": 173.34485054016113, "fps": 10.04, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.0630186, "frame_idx": 315, "latency_ms": 90.95478057861328, "fps": 9.31, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.1945686, "frame_idx": 316, "latency_ms": 131.55007362365723, "fps": 9.35, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.3020523, "frame_idx": 317, "latency_ms": 106.97460174560547, "fps": 8.95, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.3953652, "frame_idx": 318, "latency_ms": 93.31297874450684, "fps": 8.86, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.5133033, "frame_idx": 319, "latency_ms": 117.93804168701172, "fps": 8.85, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.6309433, "frame_idx": 320, "latency_ms": 117.12837219238281, "fps": 8.73, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.7117891, "frame_idx": 321, "latency_ms": 80.84583282470703, "fps": 9.01, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.8951318, "frame_idx": 322, "latency_ms": 183.14075469970703, "fps": 9.17, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892188.9858544, "frame_idx": 323, "latency_ms": 90.72256088256836, "fps": 8.54, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.0528333, "frame_idx": 324, "latency_ms": 66.72120094299316, "fps": 8.42, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.139109, "frame_idx": 325, "latency_ms": 85.84237098693848, "fps": 9.25, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.2356417, "frame_idx": 326, "latency_ms": 96.53282165527344, "fps": 9.3, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.360304, "frame_idx": 327, "latency_ms": 124.66239929199219, "fps": 9.61, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.437614, "frame_idx": 328, "latency_ms": 77.30984687805176, "fps": 9.45, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.5668864, "frame_idx": 329, "latency_ms": 129.2724609375, "fps": 9.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.6917486, "frame_idx": 330, "latency_ms": 124.75061416625977, "fps": 9.49, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.7836697, "frame_idx": 331, "latency_ms": 91.92109107971191, "fps": 9.43, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.8602045, "frame_idx": 332, "latency_ms": 76.53474807739258, "fps": 9.33, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892189.958082, "frame_idx": 333, "latency_ms": 97.27811813354492, "fps": 10.36, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.0421028, "frame_idx": 334, "latency_ms": 83.89902114868164, "fps": 10.29, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.1203308, "frame_idx": 335, "latency_ms": 78.22799682617188, "fps": 10.11, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.2082074, "frame_idx": 336, "latency_ms": 87.36824989318848, "fps": 10.19, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.2769632, "frame_idx": 337, "latency_ms": 68.7558650970459, "fps": 10.28, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.3807094, "frame_idx": 338, "latency_ms": 103.13200950622559, "fps": 10.91, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.4649067, "frame_idx": 339, "latency_ms": 83.68611335754395, "fps": 10.6, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.55604, "frame_idx": 340, "latency_ms": 91.13335609436035, "fps": 11.14, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.687466, "frame_idx": 341, "latency_ms": 131.4258575439453, "fps": 11.57, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892190.7751684, "frame_idx": 342, "latency_ms": 87.70251274108887, "fps": 10.98, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.1314495, "frame_idx": 343, "latency_ms": 356.281042098999, "fps": 10.93, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.2344608, "frame_idx": 344, "latency_ms": 103.0113697052002, "fps": 8.52, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.3357987, "frame_idx": 345, "latency_ms": 101.33790969848633, "fps": 8.39, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.4385731, "frame_idx": 346, "latency_ms": 102.5397777557373, "fps": 8.23, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.5476582, "frame_idx": 347, "latency_ms": 109.0850830078125, "fps": 8.12, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.702191, "frame_idx": 348, "latency_ms": 154.02817726135254, "fps": 7.86, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.816379, "frame_idx": 349, "latency_ms": 114.18795585632324, "fps": 7.57, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892191.9319067, "frame_idx": 350, "latency_ms": 115.52762985229492, "fps": 7.4, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.0165422, "frame_idx": 351, "latency_ms": 84.63549613952637, "fps": 7.27, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.1041884, "frame_idx": 352, "latency_ms": 87.6462459564209, "fps": 7.56, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.206486, "frame_idx": 353, "latency_ms": 102.19335556030273, "fps": 7.52, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.2948904, "frame_idx": 354, "latency_ms": 87.93354034423828, "fps": 9.31, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.3831012, "frame_idx": 355, "latency_ms": 88.2108211517334, "fps": 9.43, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.4621525, "frame_idx": 356, "latency_ms": 78.5374641418457, "fps": 9.55, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.5684423, "frame_idx": 357, "latency_ms": 105.6356430053711, "fps": 9.78, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.6713545, "frame_idx": 358, "latency_ms": 102.91218757629395, "fps": 9.81, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.780214, "frame_idx": 359, "latency_ms": 108.85953903198242, "fps": 10.32, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.8937972, "frame_idx": 360, "latency_ms": 113.58308792114258, "fps": 10.38, "vmouse_enabled": false, "hand": null}
+{"type": "frame", "ts": 1758892192.9858496, "frame_idx": 361, "latency_ms": 92.05245971679688, "fps": 10.4, "vmouse_enabled": false, "hand": null}

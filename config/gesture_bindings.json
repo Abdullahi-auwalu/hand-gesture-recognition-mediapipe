@@ -1,0 +1,9 @@
+{
+  "virtual_mouse": {
+    "enabled": true,
+    "pointer_pose_label": "Pointer"
+  },
+  "click": {
+    "mode": "pinch"
+  }
+}
