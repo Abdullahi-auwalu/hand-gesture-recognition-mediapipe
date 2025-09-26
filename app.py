@@ -28,6 +28,8 @@ try:
 except Exception:
     HAVE_TTS = False
 
+import threading, queue
+
 from utils import CvFpsCalc
 from model import KeyPointClassifier, PointHistoryClassifier
 
@@ -100,11 +102,76 @@ class RunLogger:
         try: self.fh.close()
         except Exception: pass
 
+# ======================= TTS (non-blocking worker) =======================
+class TTSpeaker:
+    def __init__(self, rate=175, cooldown=0.8, enabled=False):
+        self.enabled = enabled and HAVE_TTS
+        self.cooldown = cooldown
+        self.last_label = ""
+        self.last_ts = 0.0
+        self.q: "queue.Queue[str]" = queue.Queue(maxsize=4)
+        self._stop = threading.Event()
+        self.engine = None
+        self.thread = None
+        if self.enabled:
+            self._init_engine(rate)
+
+    def _init_engine(self, rate):
+        try:
+            self.engine = pyttsx3.init()
+            self.engine.setProperty("rate", rate)
+            self.thread = threading.Thread(target=self._loop, daemon=True)
+            self.thread.start()
+        except Exception:
+            self.enabled = False
+            self.engine = None
+            self.thread = None
+
+    def _loop(self):
+        while not self._stop.is_set():
+            try:
+                text = self.q.get(timeout=0.1)
+            except queue.Empty:
+                continue
+            try:
+                self.engine.say(text)
+                self.engine.runAndWait()
+            except Exception:
+                pass
+
+    def toggle(self, rate=None):
+        self.enabled = not self.enabled and HAVE_TTS
+        if self.enabled and self.engine is None:
+            self._init_engine(rate or 175)
+        return self.enabled
+
+    def maybe_say(self, label, conf, threshold):
+        if not self.enabled: return
+        now = time.time()
+        if conf >= threshold and label and (label != self.last_label or (now - self.last_ts) >= self.cooldown):
+            self.last_label = label
+            self.last_ts = now
+            try:
+                self.q.put_nowait(label)
+            except queue.Full:
+                pass
+
+    def close(self):
+        try:
+            self._stop.set()
+        except Exception:
+            pass
+        try:
+            if self.engine:
+                self.engine.stop()
+        except Exception:
+            pass
+
 # ======================= Video recorder =======================
 class VideoRecorder:
     def __init__(self, out_dir, w, h, fps=30):
         self.dir = out_dir; os.makedirs(self.dir, exist_ok=True)
-        self.w, self.h, self.fps = w, h, fps
+        self.w, self.h, self.fps = int(w), int(h), float(fps or 30)
         self.writer = None; self.filepath = None; self.started_at = None
         self.fourcc = cv.VideoWriter_fourcc(*"mp4v")
     def is_on(self): return self.writer is not None
@@ -113,19 +180,29 @@ class VideoRecorder:
         fname = f"rec_{datetime.now().strftime('%Y%m%d-%H%M%S')}.mp4"
         self.filepath = os.path.join(self.dir, fname)
         self.writer = cv.VideoWriter(self.filepath, self.fourcc, self.fps, (self.w,self.h))
+        if not self.writer.isOpened():
+            self.writer.release()
+            self.writer = None
+            print("[rec] ERROR: could not open VideoWriter (codec/permissions?)")
+            return None
         self.started_at = time.time()
         return self.filepath
     def write(self, frame):
-        if self.writer is not None: self.writer.write(frame)
+        if self.writer is not None:
+            if frame.shape[1] != self.w or frame.shape[0] != self.h:
+                frame = cv.resize(frame, (self.w, self.h))
+            self.writer.write(frame)
     def stop(self):
-        if self.writer is None: return None
-        self.writer.release(); self.writer = None
+        if self.writer is None: return None, None
+        try: self.writer.release()
+        except Exception: pass
+        self.writer = None
         dur = time.time()-self.started_at if self.started_at else None
         fp = self.filepath
         self.filepath = None; self.started_at = None
         return fp, dur
 
-# ======================= Virtual mouse (unchanged behavior) =======================
+# ======================= Virtual mouse =======================
 class VirtualMouse:
     def __init__(self, frame_w, frame_h, pointer_id=2, enable_now=False):
         self.enabled = enable_now and HAVE_PYAUTO
@@ -153,7 +230,7 @@ class VirtualMouse:
         self.stable_counter = min(self.STABLE_N, self.stable_counter+1) if (is_ptr and conf_ok) else 0
         return self.stable_counter >= self.STABLE_N
     def _is_pinching(self, thumb_tip, index_tip, brect):
-        diag = _bbox_diag(brect); 
+        diag = _bbox_diag(brect)
         if diag < 1: self._pinch_debug_ratio=None; return False
         ratio = _dist(thumb_tip,index_tip)/diag; self._pinch_debug_ratio=ratio
         return ratio < self.PINCH_FRAC
@@ -219,8 +296,9 @@ def main():
     cap.set(cv.CAP_PROP_FRAME_WIDTH, args.width)
     cap.set(cv.CAP_PROP_FRAME_HEIGHT, args.height)
 
-    # estimate fps for recording; default 30
-    fps_for_rec = cap.get(cv.CAP_PROP_FPS) or 30
+    # estimate fps for recording; default 30 if unknown/0
+    fps_from_cap = cap.get(cv.CAP_PROP_FPS)
+    fps_for_rec = fps_from_cap if fps_from_cap and fps_from_cap > 0 else 30
 
     mp_hands = mp.solutions.hands
     hands = mp_hands.Hands(
@@ -255,14 +333,10 @@ def main():
     if args.virtual_mouse and not HAVE_PYAUTO:
         print("[virtual-mouse] pyautogui not available. pip install pyautogui")
 
-    # ---- TTS
-    tts_engine = None
-    speak_enabled = bool(args.speak and HAVE_TTS)
-    last_spoken = ""
-    last_speak_ts = 0.0
-    if speak_enabled:
-        tts_engine = pyttsx3.init()
-        tts_engine.setProperty("rate", args.speech_rate)
+    # ---- TTS worker
+    speaker = TTSpeaker(rate=args.speech_rate, cooldown=args.speech_cooldown, enabled=args.speak)
+    if args.speak and not HAVE_TTS:
+        print("[speech] pyttsx3 not available. pip install pyttsx3")
 
     # ---- Recorder
     recorder = VideoRecorder(args.recordings_dir, args.width, args.height, fps=fps_for_rec)
@@ -279,7 +353,9 @@ def main():
 
     try:
         while True:
+            loop_t0 = time.time()
             fps = cvFpsCalc.get()
+
             key = cv.waitKey(10)
             if key == 27:  # ESC
                 break
@@ -287,20 +363,21 @@ def main():
                 now_enabled = vmouse.toggle()
                 logger.log_event("vmouse_toggle", enabled=now_enabled)
                 print(f"[virtual-mouse] {'ENABLED' if now_enabled else 'DISABLED'}")
-            if key in (ord('v'), ord('V')) and HAVE_TTS:
-                speak_enabled = not speak_enabled
-                last_spoken = ""
-                logger.log_event("speech_toggle", enabled=speak_enabled)
-                print(f"[speech] {'ENABLED' if speak_enabled else 'DISABLED'}")
+            if key in (ord('v'), ord('V')):
+                now_enabled = speaker.toggle(rate=args.speech_rate)
+                logger.log_event("speech_toggle", enabled=now_enabled)
+                print(f"[speech] {'ENABLED' if now_enabled else 'DISABLED'}")
             if key in (ord('r'), ord('R')):
                 if recorder.is_on():
                     fp, dur = recorder.stop()
-                    logger.log_event("record_stop", file=os.path.basename(fp), duration_s=dur)
-                    print(f"[rec] stopped → {fp} ({dur:.1f}s)")
+                    if fp:
+                        logger.log_event("record_stop", file=os.path.basename(fp), duration_s=dur)
+                        print(f"[rec] stopped → {fp} ({(dur or 0):.1f}s)")
                 else:
                     fp = recorder.start()
-                    logger.log_event("record_start", file=os.path.basename(fp))
-                    print(f"[rec] started → {fp}")
+                    if fp:
+                        logger.log_event("record_start", file=os.path.basename(fp))
+                        print(f"[rec] started → {fp}")
 
             number, mode = select_mode(key, mode)
 
@@ -352,14 +429,8 @@ def main():
                     debug_image = draw_info_text(debug_image, brect, handedness,
                                                  label_text, point_history_labels[most_common_fg])
 
-                    # Speak (rate-limited & only on change)
-                    now = time.time()
-                    if speak_enabled and hand_conf >= CONF_THRESHOLD and label_text != last_spoken and (now - last_speak_ts) >= args.speech_cooldown:
-                        try:
-                            tts_engine.say(label_text); tts_engine.iterate()  # non-blocking-ish
-                        except Exception:
-                            pass
-                        last_spoken = label_text; last_speak_ts = now
+                    # Speak (debounced, non-blocking worker)
+                    speaker.maybe_say(label_text, hand_conf, CONF_THRESHOLD)
 
                     # Log one hand (latest)
                     log_record["hand"] = {
@@ -380,33 +451,38 @@ def main():
             cv.putText(debug_image, f"VMOUSE: {'ON' if vmouse.enabled else 'OFF'} (m)",
                        (10, 150), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 1, cv.LINE_AA)
 
-            cv.putText(debug_image, f"SPEECH: {'ON' if speak_enabled else 'OFF'} (v)",
+            cv.putText(debug_image, f"SPEECH: {'ON' if speaker.enabled else 'OFF'} (v)",
                        (10, 175), cv.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,0), 4, cv.LINE_AA)
-            cv.putText(debug_image, f"SPEECH: {'ON' if speak_enabled else 'OFF'} (v)",
+            cv.putText(debug_image, f"SPEECH: {'ON' if speaker.enabled else 'OFF'} (v)",
                        (10, 175), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 1, cv.LINE_AA)
 
             rec_txt = f"REC: {'ON' if recorder.is_on() else 'OFF'} (r)"
             cv.putText(debug_image, rec_txt, (10, 200), cv.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,0), 4, cv.LINE_AA)
-            cv.putText(debug_image, rec_txt, (10, 200), cv.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0) if recorder.is_on() else (255,255,255), 1, cv.LINE_AA)
+            cv.putText(debug_image, rec_txt, (10, 200), cv.FONT_HERSHEY_SIMPLEX, 0.6,
+                       (0,255,0) if recorder.is_on() else (255,255,255), 1, cv.LINE_AA)
 
-            # write video if recording
+            # write video if recording (write original frame; switch to debug_image to burn-in overlays)
             if recorder.is_on():
-                recorder.write(image)  # raw (not debug overlay) to file
+                recorder.write(image)
 
             cv.imshow("Hand Gesture Recognition", debug_image)
 
-            loop_ms = (time.time() - last_speak_ts) * 1000.0  # harmless reuse
+            loop_ms = (time.time() - loop_t0) * 1000.0
             logger.log_frame(latency_ms=loop_ms, **log_record)
     finally:
+        # cleanup
         if recorder.is_on():
             recorder.stop()
-        if HAVE_TTS and tts_engine:
-            try: tts_engine.stop()
-            except Exception: pass
+        speaker.close()
         logger.close()
-        cap.release(); cv.destroyAllWindows()
+        try:
+            hands.close()
+        except Exception:
+            pass
+        cap.release()
+        cv.destroyAllWindows()
 
-# -------- helpers (unchanged drawing / calc) --------
+# -------- helpers (drawing / calc) --------
 def select_mode(key, mode):
     number = -1
     if 48 <= key <= 57: number = key - 48
@@ -458,7 +534,6 @@ def logging_csv(number, mode, landmark_list, point_history_list):
 
 def draw_landmarks(image, lmk):
     if len(lmk)>0:
-        # fingers + palm (same as before)
         for a,b in [(2,3),(3,4),(5,6),(6,7),(7,8),(9,10),(10,11),(11,12),
                     (13,14),(14,15),(15,16),(17,18),(18,19),(19,20),
                     (0,1),(1,2),(2,5),(5,9),(9,13),(13,17),(17,0)]:
